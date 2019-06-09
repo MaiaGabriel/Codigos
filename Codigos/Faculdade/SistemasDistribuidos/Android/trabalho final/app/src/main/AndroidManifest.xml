@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.applibras">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +13,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".cadastroUsuario"></activity>
+        <activity android:name=".testevideo"></activity>
+        <activity android:name=".resultado1" />
+        <activity android:name=".teste1q3" />
+        <activity android:name=".teste1q2" />
+        <activity android:name=".teste1q1" />
+        <activity android:name=".testes" />
+        <activity android:name=".meus_cursos" />
+        <activity android:name=".cadastroUsuario" />
         <activity android:name=".BemVindoActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

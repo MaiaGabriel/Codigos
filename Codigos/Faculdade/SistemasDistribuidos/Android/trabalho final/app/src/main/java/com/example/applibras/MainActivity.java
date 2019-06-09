@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         //displays a video file
         VideoView videoView = (VideoView) findViewById(R.id.videoView);
 
-        String videoPath = "android.resource://com.example.applibras" + R.raw.videointro;
+        String videoPath = "android.resource://com.example.applibras/" + R.raw.intro;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
 
